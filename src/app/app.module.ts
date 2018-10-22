@@ -9,6 +9,8 @@ import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { IonicStorageModule } from '@ionic/storage';
 import { HttpModule } from '@angular/http';
+import { EditPage } from '../pages/edit/edit';
+import { InsertPage } from '../pages/insert/insert';
 
 import { LoginPage } from '../pages/login/login';
 import { RegisterPage } from '../pages/register/register';
@@ -27,6 +29,8 @@ import { CrudProvider } from '../providers/crud/crud';
     TabsPage,
     LoginPage,
     RegisterPage,
+    EditPage,
+    InsertPage
   ],
   imports: [
     BrowserModule,
@@ -43,6 +47,8 @@ import { CrudProvider } from '../providers/crud/crud';
     TabsPage,
     LoginPage,
     RegisterPage,
+    EditPage,
+    InsertPage
   ],
   providers: [
     StatusBar,
